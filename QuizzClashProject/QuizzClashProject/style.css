@@ -1,0 +1,667 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+}
+
+#profileBody {
+    background: url("https://www.walldevil.com/wallpapers/a28/back-ground-background-large-website-images-welivein.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#loginBody {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#about-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#create-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#difficult-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#easy-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#medium-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#hard-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#menu-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#newPassword-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#passwordRecovery-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#results-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+#scores-body {
+    background: url("http://linnovatore.it/wp-content/uploads/2015/04/quiz-difficile-che-spopola.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #292929;
+}
+
+.container {
+    width: 400px;
+    height: 370px;
+    text-align: center;
+    background-color: rgba(52,73,94,0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+    .container .form-input {
+        margin-top: 1px;
+    }
+
+#form1 .container .menu_simple h2 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+h2 + p {
+    margin-top: 10px;
+}
+
+.container .menu_simple p {
+    margin-top: -41px;
+    color: white;
+    text-align: justify;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.container img {
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input[type = "text"], input[type = "password"] {
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding-left: 35px;
+}
+
+.btn-login {
+    padding: 15px 100px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-top: 20px;
+}
+
+.btn-create {
+    padding: 15px 100px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-bottom: 20px;
+}
+
+.btn-password {
+    padding: 15px 100px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-bottom: 20px;
+}
+
+.btn-newPass {
+    padding: 15px 100px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-bottom: 20px;
+}
+
+.btn-score {
+    margin-top: 10px;
+    padding: 15px 75px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-bottom: -10px;
+}
+
+.btn-about {
+    padding: 15px 95px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-top: 18px;
+}
+
+.btn-BACK {
+    padding: 15px 100px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff6a00;
+    border-bottom: 4px solid #9d4607;
+    margin-top: 50px;
+}
+
+#btnProfile {
+    background-color: #005555;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+    #btnProfile:visited {
+        color: white;
+    }
+
+    #btnProfile:hover {
+        color: white;
+        background-color: #5FD367;
+        height: 40px;
+    }
+
+#btnLogout {
+    background-color: #005555;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+    #btnLogout:visited {
+        color: white;
+    }
+
+    #btnLogout:hover {
+        color: white;
+        background-color: #5FD367;
+        height: 40px;
+    }
+
+#btnStartGame {
+    top: 80%;
+    left: 100%;
+    padding: 15px 100px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-top: 80px;
+    margin-left: 350px;
+}
+
+#btnGoBackToMenu1 {
+    padding: 15px 60px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff6a00;
+    border-bottom: 4px solid #9d4607;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+#btnGoBackToMenu2 {
+    padding: 15px 60px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff6a00;
+    border-bottom: 4px solid #9d4607;
+    margin-top: 2%;
+    margin-left: 42%;
+}
+
+#btnGoBackToMenu3 {
+    padding: 15px 60px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff6a00;
+    border-bottom: 4px solid #9d4607;
+    margin-top: 4%;
+    margin-left: 43.5%;
+}
+
+h1 {
+    font-family: Calibri;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(52,73,94,0.8);
+    text-align: center;
+    padding-left: 15px;
+    text-transform: uppercase;
+    line-height: 2;
+    border-left: 2px solid #244180;
+    border-right: 2px solid #244180;
+}
+
+a {
+    color: #fff;
+}
+
+#menu .navbar {
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+    #menu .navbar li {
+        background-color: #005555;
+        width: 120px;
+        height: 40px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+    }
+
+        #menu .navbar li a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+        }
+
+            #menu .navbar li a:visited {
+                color: white;
+            }
+
+            #menu .navbar li a:hover, ul li .current {
+                color: white;
+                background-color: #5FD367;
+                height: 40px;
+            }
+
+#form1 .container h3 {
+    font-family: Calibri;
+    font-size: 25px;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.grid {
+    position: fixed;
+    top: 30%;
+    left: 37%;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em;
+    width: 1000px;
+    height: 600px;
+    background-color: rgba(100%,100%,100%,0.9);
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+}
+
+    .grid h4 {
+        font-family: sans-serif;
+        background-color: #57636e;
+        font-size: 60px;
+        text-align: center;
+        color: #fff;
+        padding: 2px 0px;
+        border-radius: 50px;
+        margin-top: 40px;
+    }
+
+    .grid #txtQuestion {
+        font-family: sans-serif;
+        box-sizing: border-box;
+        display: inline-block;
+        text-align: center;
+        font-size: 1.4vw;
+        color: #5a6772;
+        width: 980px;
+        height: 100px;
+        background-color: rgba(100%,100%,100%,0.9);
+    }
+
+.buttons {
+    margin-top: 20px;
+}
+
+#btnAnswer1, #btnAnswer2, #btnAnswer3, #btnAnswer4 {
+    background-color: #778897;
+    width: 300px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 80px 20px 110px;
+    padding: 10px 10px;
+}
+
+    #btnAnswer1:hover, #btnAnswer2:hover, #btnAnswer3:hover, #btnAnswer4:hover {
+        cursor: pointer;
+        background-color: #57636e
+    }
+
+    #btnAnswer1:focus, #btnAnswer2:focus, #btnAnswer3:focus, #btnAnswer4:focus {
+        outline: 0;
+    }
+
+#categoryDiv {
+    font-family: sans-serif;
+    background-color: #056aa5;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding: 0.1px 0px;
+    border-radius: 50px;
+    margin-top: -40px;
+    font-weight: bold;
+}
+
+#category {
+    margin-top: 10px;
+    line-height: 0;
+}
+
+.cont_about {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    background-color: rgba(52,73,94,0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#form1 .cont_about .menu_simple h2 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+#form1 .cont_about .menu_simple h3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -60px;
+}
+
+.cont_about .menu_simple p {
+    margin-top: -38px;
+    color: white;
+    text-align: justify;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.row {
+    height: 700px;
+    background-color: white;
+    width: 52.1%;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.pic_base {
+    height: 40%;
+    background-color: white;
+    background: url("http://lefroyskatingclub.webs.com/Blue-Lines.jpg");
+    background-size: cover;
+}
+
+.icon_base {
+    background-color: #5a6772;
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 250px;
+    align-items: center;
+    border-radius: 100%;
+}
+
+    .icon_base #edit {
+        color: white;
+        margin-left: 12px;
+        margin-top: 15px;
+        position: absolute;
+        align-items: center;
+    }
+
+#profile_pic {
+    border-radius: 100%;
+    border: 2px solid #34496e;
+    box-shadow: 0 2px 2px black;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+#lblUserName {
+    margin-left: 10px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+#lblUserName1 {
+    margin-left: 400px;
+    margin-top: 120px;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+#lblEmail {
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+#lblEmail1 {
+    margin-left: 400px;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.social {
+    width: 960px;
+    list-style: none;
+    position: absolute;
+    bottom: 200px;
+    align-items: center;
+    height: 40px;
+    background-color: #5a6772
+}
+
+    .social #menu {
+        font-family: Verdana;
+        margin-left: -20px;
+        color: white;
+        position: absolute;
+        align-items: center;
+        font-weight: bold;
+        font-family: Verdana;
+        padding: 10px;
+    }
+
+#form7 #cont-result {
+    width: 1000px;
+    height: 370px;
+    text-align: center;
+    background-color: rgba(52,73,94,0.8);
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+#btnGoBackToMenu {
+    padding: 15px 60px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #ff6a00;
+    border-bottom: 4px solid #9d4607;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+#btnPlayAgain {
+    top: 80%;
+    left: 100%;
+    padding: 15px 90px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#lbl1 {
+    padding: 100px 90px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-bottom: -50px;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#lbl2 {
+    font-weight: bold;
+    font-family: Verdana;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+}
+
+#lbl3 {
+    font-weight: bold;
+    font-family: Verdana;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+}
+
+#lblResult {
+    font-weight: bold;
+    font-family: Verdana;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+}
+
+#lblResult2 {
+    font-weight: bold;
+    font-family: Verdana;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    margin-left: 10px;
+}
